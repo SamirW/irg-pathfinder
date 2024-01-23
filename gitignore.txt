@@ -1,6 +1,9 @@
 # Ignore logs
 logs/
 
+# Ignore Samir's weird WSL thing
+*.Identifier
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

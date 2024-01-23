@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "irg-pathfinder"
+version = "0.1.0"
+description = ""
+authors = ["Samir Wadhwania <samirw@mit.edu>"]
+readme = "README.md"
+packages = [{include = "irg_pathfinder"}]
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+jsbgym = "^0.3.1"
+rl-zoo3 = "^2.2.1"
+stable-baselines3 = "^2.2.1"
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
